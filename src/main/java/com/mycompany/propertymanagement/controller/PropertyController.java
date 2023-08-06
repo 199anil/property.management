@@ -18,7 +18,7 @@ public class PropertyController {
     @Value("${property.dummy:}")
     private String dummy;
 
-    @Value("${spring.datasource.ur:l}")
+    @Value("${spring.datasource.url:}")
     private String dbUrl;
 
 
